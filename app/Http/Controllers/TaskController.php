@@ -16,8 +16,8 @@ class TaskController extends Controller
     {
         $tasks = $request->user()->tasks()->get();
 
-        return view('tasks.index' [
-            'tasks' => $tasks
+        return view('tasks.index', [
+            'tasks' => $tasks,
         ]);
     }
 
