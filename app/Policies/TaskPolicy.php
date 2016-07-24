@@ -1,8 +1,9 @@
 <?php
-
 namespace App\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
+use App\User;
+use App\Task;
 
 class TaskPolicy
 {

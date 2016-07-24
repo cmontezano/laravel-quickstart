@@ -5,6 +5,7 @@ use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Repositories\TaskRepository;
+use App\Task;
 
 class TaskController extends Controller
 {
